@@ -1,0 +1,1 @@
+{"name": "mou-final-server", "version": "1.0.0", "type": "module", "scripts": {"dev": "node server.js"}, "dependencies": {"express": "^4.18.2"}}

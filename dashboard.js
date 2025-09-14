@@ -1,0 +1,1 @@
+export function Dashboard(){ const div=document.createElement('div'); div.className='card'; div.appendChild(document.createElement('h1')).textContent='Welcome to Master of Universe'; return div;}

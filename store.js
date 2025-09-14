@@ -1,0 +1,1 @@
+export class Store{constructor(i={}){this.state=i} get(k){return this.state[k]} set(k,v){this.state[k]=v; localStorage.setItem(k,JSON.stringify(v))} load(k){try{return JSON.parse(localStorage.getItem(k))}catch{return null}}}

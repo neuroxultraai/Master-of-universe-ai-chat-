@@ -1,2 +1,2 @@
-# Master-of-universe-ai-chat-
-"AI powered assistant app with Gemini level features "
+# Master of Universe — Final (deployable)
+See client/ and server/ for code.

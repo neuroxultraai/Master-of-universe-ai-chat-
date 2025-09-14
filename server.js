@@ -1,0 +1,1 @@
+import express from 'express'; const app=express(); app.use(express.json()); app.get('/',(req,res)=>res.send('MOU server running')); app.listen(5050,()=>console.log('Server running on 5050'));

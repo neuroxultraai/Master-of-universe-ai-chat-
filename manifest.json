@@ -1,0 +1,182 @@
+{
+  "features": [
+    {
+      "id": "real_time_pose_coach",
+      "title": "Real-time Pose Coach (Dance / Sports)",
+      "priority": "High",
+      "summary": "Camera-based pose estimation that detects form errors, counts reps, and gives live corrective feedback (visual + TTS).",
+      "required_assets": [
+        "pose-model (MoveNet/MediaPipe)",
+        "overlay UI",
+        "rules engine",
+        "voice feedback"
+      ],
+      "example_image": "real_time_pose_coach.svg"
+    },
+    {
+      "id": "ai_mentor_3d",
+      "title": "AI Mentor (Ayush-style 3D)",
+      "priority": "High",
+      "summary": "Personal 3D avatar mentor visible only to owner; emotional states and voice guidance.",
+      "required_assets": [
+        "Three.js glTF model",
+        "private rendering",
+        "TTS"
+      ],
+      "example_image": "ai_mentor_3d.svg"
+    },
+    {
+      "id": "multimodal_ai",
+      "title": "Ultra Multimodal AI (Text/Voice/Image/Video/Camera)",
+      "priority": "High",
+      "summary": "Unified multimodal interface: chat (text), voice input/output, image uploads, video inputs and real-time camera.",
+      "required_assets": [
+        "Speech-to-text",
+        "Text-to-speech",
+        "Image upload UI",
+        "Video processing endpoints"
+      ],
+      "example_image": "multimodal_ai.svg"
+    },
+    {
+      "id": "ai_workspace",
+      "title": "AI Workspace (Docs + Notes + Cloud + Calendar)",
+      "priority": "Medium",
+      "summary": "Integrated Docs/Notes/Cloud/Calendar with AI summarization and voice-to-notes.",
+      "required_assets": [
+        "Rich-text editor",
+        "Cloud storage api",
+        "Calendar UI",
+        "pdf export"
+      ],
+      "example_image": "ai_workspace.svg"
+    },
+    {
+      "id": "ai_tutor",
+      "title": "AI Tutor (Class 7\u201312 Doubt Solver)",
+      "priority": "High",
+      "summary": "Subject-wise tutor, step-by-step explanations, mock tests and auto-grader.",
+      "required_assets": [
+        "Curriculum prompts",
+        "question bank",
+        "grading logic"
+      ],
+      "example_image": "ai_tutor.svg"
+    },
+    {
+      "id": "ai_doctor",
+      "title": "AI Doctor (HealthGPT)",
+      "priority": "High",
+      "summary": "Symptom checker, diet guidance, mental-health chat (triage only; no definitive diagnosis).",
+      "required_assets": [
+        "Medical QA prompts",
+        "disclaimer UI",
+        "emergency contact flow"
+      ],
+      "example_image": "ai_doctor.svg"
+    },
+    {
+      "id": "ai_coding_assistant",
+      "title": "AI Coding Assistant",
+      "priority": "High",
+      "summary": "Code generation, debugging, in-browser runner, project scaffolding.",
+      "required_assets": [
+        "Code editor",
+        "sandboxed runner",
+        "AI code endpoints"
+      ],
+      "example_image": "ai_coding_assistant.svg"
+    },
+    {
+      "id": "ai_designer_video",
+      "title": "AI Designer + Video Editor",
+      "priority": "Medium",
+      "summary": "Logo/poster generator and basic video editor (trim/overlay).",
+      "required_assets": [
+        "Template engine",
+        "ffmpeg backend or wasm",
+        "image generator API"
+      ],
+      "example_image": "ai_designer_video.svg"
+    },
+    {
+      "id": "ai_business_coach",
+      "title": "AI Business Coach",
+      "priority": "Medium",
+      "summary": "Startup idea generator, market research, financial plan templates.",
+      "required_assets": [
+        "market-data connectors",
+        "report generator"
+      ],
+      "example_image": "ai_business_coach.svg"
+    },
+    {
+      "id": "premium_system",
+      "title": "Premium vs Free Unlock System",
+      "priority": "Medium",
+      "summary": "Referral & unlock system, admin control for access tiers.",
+      "required_assets": [
+        "User DB",
+        "referral tracking",
+        "payment gateway (optional)"
+      ],
+      "example_image": "premium_system.svg"
+    },
+    {
+      "id": "social_helper",
+      "title": "AI Social Media Helper",
+      "priority": "Medium",
+      "summary": "Caption, script, hashtag suggestions and posting scheduler.",
+      "required_assets": [
+        "social api connectors",
+        "analytics"
+      ],
+      "example_image": "social_helper.svg"
+    },
+    {
+      "id": "multilanguage_support",
+      "title": "Multi-language Learning & Translation",
+      "priority": "High",
+      "summary": "Teach and translate into many country languages; UI i18n + AI language prompts.",
+      "required_assets": [
+        "i18n library",
+        "translation prompts",
+        "language selection UI"
+      ],
+      "example_image": "multilanguage_support.svg"
+    },
+    {
+      "id": "workspace_pdf_export",
+      "title": "Notes Export / PDF",
+      "priority": "Low",
+      "summary": "Export notes/docs to PDF/print-friendly format.",
+      "required_assets": [
+        "print css",
+        "pdf generator"
+      ],
+      "example_image": "workspace_pdf_export.svg"
+    },
+    {
+      "id": "handwriting_ocr",
+      "title": "Handwriting OCR",
+      "priority": "Low",
+      "summary": "Recognize handwritten notes and convert to text using Tesseract or ML models.",
+      "required_assets": [
+        "Tesseract.js or cloud OCR",
+        "image preproc"
+      ],
+      "example_image": "handwriting_ocr.svg"
+    },
+    {
+      "id": "video_editor_advanced",
+      "title": "Advanced Video Editor (FFmpeg)",
+      "priority": "Low",
+      "summary": "Trim, concat, overlays, subtitles \u2014 backend FFmpeg workflows.",
+      "required_assets": [
+        "FFmpeg server",
+        "job queue"
+      ],
+      "example_image": "video_editor_advanced.svg"
+    }
+  ]
+}
